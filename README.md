@@ -8,7 +8,7 @@ Este é o meu espaço para explorar, criar, e aprender as bases que constroem a 
 Aqui está o meu progresso nas principais tecnologias da web. Vou marcar as linguagens que estou aprendendo à medida que avanço:
 
 - [x] **HTML** - A estrutura por trás de cada página web.
-- [ ] **CSS** - O estilo que dá cor, forma e vida ao conteúdo.
+- [x] **CSS** - O estilo que dá cor, forma e vida ao conteúdo.
 - [ ] **JavaScript** - A magia que faz tudo acontecer.
 
 ## 📖 Sobre a Disciplina
