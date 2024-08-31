@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        img {
+            border: 2px solid black;
+        }
+        p {
+            text-align: justify;
+            text-indent: 30px;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 50%;
+            margin: auto;
+            margin-bottom: 1em;
+            table-layout: fixed;
+        }
+        .galeria {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .galeria img {
+            width: 200px;
+            height: auto;
+        }
+        label {
+            margin-bottom: 10px;
+            margin-top: 5px;
+            margin-left: 50px;
+        }
+        header {
+            width: 80%;
+            padding: 20px;
+            margin: 0 auto;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            text-align: center;
+        } 
+        nav {
+            display: inline-block;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: green;
+            display: inline-block;
+            padding: 10px;
+            border: 1px solid green;
+            border-radius: 4px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        nav a:hover {
+            background-color: green;
+            color: white;
+        }
+        h1 {
+            text-align: center;
+            border: 1px solid #1b80d3;
+            border-radius: 8px;
+            padding: 10px;
+            width: fit-content;
+            max-width: 80%;
+            margin: 0 auto 20px auto;
+        }
+        .centralizar_imagem {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        @media (max-width: 768px) {
+            table {
+                width: 100%;
+            }
+            header, h1 {
+                width: 90%;
+            }
+        }
+        fieldset{
+            width: 40%;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        body{
+            background-image:url(https://media.istockphoto.com/id/913178148/vector/music-background-musical-notes-vector-seamless-pattern.jpg?s=612x612&w=0&k=20&c=ItUFo8OlV53YtTxha4verVtDeF9MiGRGr0UT0BV6RNY=);
+            background-repeat: repeat;
+            background-size: 300px 300px;
+            background-color: #000000;
+        }
+        .container{
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 2px solid #fff;
+            border-radius: 8px;
+            background-color: rgb(255,255,255,0.8);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Posty Universe</title>
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: rgb(255, 166, 0); text-shadow: 2px 1px 2px black;">Fã clube do Post Malone</h1>
+
+        <div class="centralizar_imagem">
+            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQHLHJHr4Jm8_WBx2bes-85xHC9W94evQA-YZqq36cws1cJ_IQ0" alt="Post Malone tocando guitarra" id="post_malone" title="Cantor Post Malone">
+        </div>
+
+        <header>
+            <nav>
+                <a href="#biografia">Biografia</a>
+                <a href="#topmusicas">Músicas Mais Ouvidas</a>
+                <a href="#marcoscarreira">Marcos Importantes na Carreira</a>
+                <a href="#links">Links Importantes</a>
+                <a href="#entrarcontato">Entrar em Contato</a>
+            </nav>
+        </header>
+
+        <h2 id="biografia" style="text-indent:40px;">Biografia de Post Malone</h2>
+        <p>Malone nasceu em 4 de julho de 1995 em Syracuse, Nova Iorque. Ele foi criado por seu pai, Rich Post, e sua madrasta, Jodie...</p>
+
+        <h3 style="text-indent: 30px;"><u>Início de Carreira</u>: Primeira Mixtape</h3>
+        <p>Post Malone começou a tocar guitarra aos 15 anos e tocou em uma banda de rock antes de se voltar para a música rap...</p>
+
+        <h3 style="text-indent: 30px;"><u>Álbuns de Estúdio</u>:</h3>
+        <ul>
+            <li><b>Stoney (2016)</b>: Álbum de estreia que catapultou Post Malone ao sucesso com hits como "White Iverson"...</li>
+            <li><b>Beerbongs & Bentleys (2018)</b>: Um álbum muito aguardado que consolidou Post Malone como uma superestrela global...</li>
+            <li><b>Hollywood's Bleeding (2019)</b>: Este álbum mostrou a evolução artística de Post Malone...</li>
+            <li><b>Twelve Carat Toothache (2022)</b>: Um álbum que explora temas mais introspectivos e pessoais...</li>
+        </ul>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Ano</th>
+                    <th>Álbum</th>
+                    <th>Duração</th>
+                    <th>N° de Faixas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2016</td>
+                    <td>Stoney</td>
+                    <td>68 min</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>2018</td>
+                    <td>Beerbongs & Bentleys</td>
+                    <td>64 min</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>2019</td>
+                    <td>Hollywood's Bleeding</td>
+                    <td>51 min</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>2022</td>
+                    <td>Twelve Carat Toothache</td>
+                    <td>43 min</td>
+                    <td>14</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 id="topmusicas" style="text-indent: 40px;">Top 5 Músicas Mais Ouvidas</h2>
+        <ol>
+            <li><i>Circles</i></li>
+            <li><i>Rockstar (feat. 21 Savage)</i></li>
+            <li><i>Sunflower (com Swae Lee)</i></li>
+            <li><i>Betternow</i></li>
+            <li><i>Wow.</i></li>
+        </ol>
+
+        <h2 id="marcoscarreira" style="text-indent: 40px;">Marcos Importantes na Carreira do Post Malone</h2>
+        <ul>
+            <li><b>Lançamento de "White Iverson" (2015)</b>: A música que catapultou Post Malone ao estrelato...</li>
+            <li><b>Lançamento do Álbum de Estreia "Stoney" (2016)</b>: Seu primeiro álbum, que incluiu sucessos como "Congratulations"...</li>
+            <li><b>Turnê Mundial "Stoney Tour" (2017)</b>: Sua primeira grande turnê mundial...</li>
+            <li><b>Lançamento de "Beerbongs & Bentleys" (2018)</b>: Este álbum quebrou recordes de streaming...</li>
+            <li><b>Indicação ao Grammy de Álbum do Ano por "Beerbongs & Bentleys" (2019)</b>: Essa indicação ao Grammy solidificou sua credibilidade como artista...</li>
+            <li><b>Lançamento de "Sunflower" com Swae Lee (2018)</b>: Essa colaboração foi um enorme sucesso...</li>
+            <li><b>Lançamento de "Hollywood's Bleeding" (2019)</b>: O álbum que trouxe uma nova dimensão à sua música...</li>
+            <li><b>Lançamento de "Twelve Carat Toothache" (2022)</b>: Seu álbum mais recente que explora temas pessoais...</li>
+        </ul>
+
+        <h2 id="links" style="text-indent: 40px;">Links Importantes</h2>
+        <ul>
+            <li><a href="https://pt.wikipedia.org/wiki/Post_Malone" target="_blank">Biografia na Wikipédia</a></li>
+            <li><a href="https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60" target="_blank">Ouça Post Malone no Spotify</a></li>
+            <li><a href="https://www.letras.mus.br/post-malone/discografia/" target="_blank">Veja mais Discografia do Post Malone
+            <li><a href="https://www.instagram.com/postmalone/" target="_blank">Instagram do Post Malone</a></li>
+            <li><a href="https://www.youtube.com/user/postmalone" target="_blank">Canal Oficial no YouTube</a></li>
+        </ul>
+
+        <h2 id="entrarcontato" style="text-indent: 40px; text-align: center;">Entre em Contato Conosco</h2>
+        <form>
+            <fieldset>
+                <legend>Formulário de Contato</legend>
+                <label for="receber_nome_clube" style="width: 80%; margin: 10px auto;">Nome Completo:</label><br>
+                <input type="text" id="receber_nome_clube" name="receber_nome_clube" required><br><br>
+                <label for="email" style="width: 80%; margin: 10px auto;">E-mail:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="mensagem" style="width: 80%; margin: 10px auto;">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+
+        <h2 style="text-indent: 40px; text-align: center;">Galeria de Imagens</h2>
+        <div class="galeria">
+            <img src="https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2023/09/post-malone-foto-the-town.jpg" alt="">
+            <img src="https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2023/09/post-malone-the-town-foto.jpg" alt="">
+            <img src="https://imagez.tmz.com/image/91/4by3/2023/02/07/9101dfb2a6ab423ab6101ddae99032cc_md.jpg" alt="">
+            <img src="https://images.303magazine.com/uploads/2020/03/Post-Malone_MTepsic_303Mag_001.jpg" alt="">
+            <img src="https://assets-varnish.triblive.com/2023/07/6377106_web1_Postmalone-071323-07.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
