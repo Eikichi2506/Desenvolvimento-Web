@@ -5,15 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 3</title>
     <style>
-        
+       input[type="text"],input[type="email"],input[type="password"]{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+       }
+       button{
+        background-color: #4caf4c;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+       }
     </style>
 </head>
 <body>
     <div class="formulario">
         <label for="nome" id="nome">Nome:</label>
-        <input type="text" placeholder="Digite o seu nome" required><br><br>
+        <input type="text" placeholder="Digite o seu nome" required>
         <label for="email">E-mail:</label>
-        <input type="email" placeholder="Digite o seu email" required><br><br>
+        <input type="email" placeholder="Digite o seu email" required>
         <label for="senha">Senha:</label>
         <input type="password" placeholder="Digite sua senha" required>
         <button type="submit">Cadastrar</button>
