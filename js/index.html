@@ -1,32 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
     
     <script>
-        //Exercício 1
-        /*
-        let nome = "João"
-        let idade = 18
-        
-        alert("Olá "+ nome + ", você tem: "+ idade + " anos")
-        */
-        //Exercício 2
+        let nome = prompt("Informe o seu nome:")
+        let idade = prompt("Informe a sua idade:")
 
-        let nome = prompt("Digite o seu nome:")
-        let idade2 = Number(prompt("Digite a sua idade:",""))
-        
-        if (idade2 >= 18){
-            alert("Olá "+nome+ " sua idade: "+idade2+ " anos, maior de idade.");
-        } else{
-            alert("Olá "+nome+ " sua idade: "+idade2+ " anos, menor de idade.");
-        } 
+        if (idade >= 18){
+            alert("Olá "+nome+ " Sua idade: "+idade+" anos, você é maior de idade.");
+        }else{
+            alert("Olá "+nome+ " Sua idade: "+idade+" anos, você é menor de idade.");
+        }
     </script>
-
-</body>
+    </body>
 </html>
