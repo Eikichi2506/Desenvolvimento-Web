@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exerc 5</title>
+</head>
+<body>
+    <label for="item">item</label>
+    <input type="text" id="item" placeholder="Digite um item:">
+    <button onclick="addItem()">Adicionar</button>
+    <ul id="list"></ul>
+
+    <script>
+        function addItem(){
+            const item = document.getElementById("item").value;
+
+            const li = document.createElement('li')
+            li.textContent = item;
+
+            const list = document.getElementById('list');
+            list.appendChild(li);
+
+            document.getElementById('item').value = '';
+        }
+    </script>
+</body>
+</html>
