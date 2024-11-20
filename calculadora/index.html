@@ -2,39 +2,40 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculadora</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="campo-calc">
-            <input type="text" id="calculator">
+    <div class="borda">
+        <div class="titulo">
+            <h1>Calculadora</h1>
         </div>
     </div>
-    <div class="keys-calculator">
-        <button type="button" id="btn-key" value="7">7</button>
-        <button type="button" id="btn-key" value="8">8</button>
-        <button type="button" id="btn-key" value="9">9</button>
-        <button type="button" id="btn-key" value="/">&divide;</button>
-
-        <button type="button" id="btn-key" value="4">4</button>
-        <button type="button" id="btn-key" value="5">5</button>
-        <button type="button" id="btn-key" value="6">6</button>
-        <button type="button" id="btn-key" value="*">&times;</button>
-
-        <button type="button" id="btn-key" value="1">1</button>
-        <button type="button" id="btn-key" value="2">2</button>
-        <button type="button" id="btn-key" value="3">3</button>
-        <button type="button" id="btn-key" value="-">-</button>
-
-        <button type="button" id="btn-key" value="0">0</button>
-        <button type="button" id="btn-key" value=".">.</button>
-        <button type="button" id="btn-key" value="=">=</button>
-        <button type="button" id="btn-key" value="+">+</button>
+    <div id="calculator-card">
+        <input type="text" class="calculator-screen" value="" disabled placeholder="0">
+        <div class="container">
+            <button type="button" class="button-keys" value="7">7</button>
+            <button type="button" class="button-keys" value="8">8</button>
+            <button type="button" class="button-keys" value="9">9</button>
+            <button type="button" class="button-keys" value="/">&divide;</button>
+    
+            <button type="button" class="button-keys" value="4">4</button>
+            <button type="button" class="button-keys" value="5">5</button>
+            <button type="button" class="button-keys" value="6">6</button>
+            <button type="button" class="button-keys" value="*">&times;</button>
+    
+            <button type="button" class="button-keys" value="1">1</button>
+            <button type="button" class="button-keys" value="2">2</button>
+            <button type="button" class="button-keys" value="3">3</button>
+            <button type="button" class="button-keys" value="-">-</button>
+    
+            <button type="button" class="button-keys" value="0">0</button>
+            <button type="button" class="button-keys" value=".">.</button>
+            <button type="button" class="button-keys" value="all-clear">C</button>
+            <button type="button" class="button-keys" value="=">=</button>
+        </div>
     </div>
-
 </body>
 </html>
