@@ -9,7 +9,7 @@ Aqui está o meu progresso nas principais tecnologias da web. Vou marcar as ling
 
 - [x] **HTML** - A estrutura por trás de cada página web.
 - [x] **CSS** - O estilo que dá cor, forma e vida ao conteúdo.
-- [ ] **JavaScript** - A magia que faz tudo acontecer.
+- [x] **JavaScript** - A magia que faz tudo acontecer.
 
 ## 📖 Sobre a Disciplina
 O Desenvolvimento Web é a arte de construir experiências online. Cada linguagem tem seu papel único:
