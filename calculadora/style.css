@@ -1,53 +1,23 @@
-body {
-    background-color: #f9faf8;
-}
-
 .titulo {
     font-family: Arial, sans-serif;
     color: #007bff;
     text-align: center;
     font-size: 2.0rem;
 }
-
 .card {
     border: none; 
     border-radius: 10px; 
 }
-
 input.form-control {
     font-size: 1.5rem; 
-    height: 50px; 
+    height: 50px;
+    width: 240px;
     border: 2px solid #ced4da; 
     border-radius: 5px;
     background-color: #ffffff;
 }
-
 .btn {
     font-size: 1.25rem;
     border-radius: 5px; 
     transition: background-color 0.3s ease;
-}
-
-.btn-warning {
-    color: white;
-    background-color: #f0ad4e;
-}
-.btn-warning:hover {
-    background-color: #ec971f;
-}
-
-.btn-danger {
-    color: white;
-    background-color: #d9534f;
-}
-.btn-danger:hover {
-    background-color: #c9302c;
-}
-
-.btn-success {
-    color: white;
-    background-color: #5cb85c;
-}
-.btn-success:hover {
-    background-color: #4cae4c;
 }

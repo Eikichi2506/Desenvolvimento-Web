@@ -9,33 +9,36 @@
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
 </head>
-<body class="bg-light d-flex justify-content-center align-items-center vh-100">
+<body class="bg-secondary d-flex justify-content-center align-items-center vh-100">
     <div class="card shadow p-4 rounded" style="width: 320px;">
         <div class="text-center mb-4">
             <h1 class="titulo">Calculadora</h1>
         </div>
-        <input type="text" class="form-control text-end mb-3 p-2" value="" disabled placeholder="0">
+        <div class="d-flex align-items-center mb-3 gap-2">
+            <input type="text" id="visor" class="form-control text-end p-2 flex-grow-1" value="" disabled placeholder="0">
+            <button type="button" id="button-allclear" onclick="limparVisor()" class="btn btn-outline-danger" value="all-clear">C</button>
+        </div>
         <div class="container">
             <div class="row g-2">
-                <div class="col-3"><button class="btn btn-light w-100 p-3" value="7">7</    button></div>
-                <div class="col-3"><button class="btn btn-light w-100 p-3" value="8">8</button></div>
-                <div class="col-3"><button class="btn btn-light w-100 p-3" value="9">9</button></div>
-                <div class="col-3"><button class="btn btn-primary w-100 p-3" value="/">&divide;</button></div>
+                <div class="col-3"><button onclick="atualizaDisplay('7')" class="btn btn-light w-100 p-3" value="7">7</    button></div>
+                <div class="col-3"><button onclick="atualizaDisplay('8')" class="btn btn-light w-100 p-3" value="8">8</button></div>
+                <div class="col-3"><button onclick="atualizaDisplay('9')" class="btn btn-light w-100 p-3" value="9">9</button></div>
+                <div class="col-3"><button onclick="definirOperador('/')" class="btn btn-primary w-100 p-3" value="/">&divide;</button></div>
                 
-                <div class="col-3"><button class="btn btn-light w-100 p-3" value="4">4</button></div>
-                <div class="col-3"><button class="btn btn-light w-100 p-3" value="5">5</button></div>
-                <div class="col-3"><button class="btn btn-light w-100 p-3" value="6">6</button></div>
-                <div class="col-3"><button class="btn btn-primary w-100 p-3" value="*">&times;</button></div>
+                <div class="col-3"><button onclick="atualizaDisplay('4')" class="btn btn-light w-100 p-3" value="4">4</button></div>
+                <div class="col-3"><button onclick="atualizaDisplay('5')" class="btn btn-light w-100 p-3" value="5">5</button></div>
+                <div class="col-3"><button onclick="atualizaDisplay('6')" class="btn btn-light w-100 p-3" value="6">6</button></div>
+                <div class="col-3"><button onclick="definirOperador('*')" class="btn btn-primary w-100 p-3" value="*">&times;</button></div>
                 
-                <div class="col-3"><button class="btn btn-light w-100 p-3" value="1">1</button></div>
-                <div class="col-3"><button class="btn btn-light w-100 p-3" value="2">2</button></div>
-                <div class="col-3"><button class="btn btn-light w-100 p-3" value="3">3</button></div>
-                <div class="col-3"><button class="btn btn-primary w-100 p-3" value="-">-</button></div>
+                <div class="col-3"><button onclick="atualizaDisplay('1')" class="btn btn-light w-100 p-3" value="1">1</button></div>
+                <div class="col-3"><button onclick="atualizaDisplay('2')" class="btn btn-light w-100 p-3" value="2">2</button></div>
+                <div class="col-3"><button onclick="atualizaDisplay('3')" class="btn btn-light w-100 p-3" value="3">3</button></div>
+                <div class="col-3"><button onclick="definirOperador('-')" class="btn btn-primary w-100 p-3" value="-">-</button></div>
                 
-                <div class="col-3"><button class="btn btn-light w-100 p-3" value="0">0</button></div>
-                <div class="col-3"><button class="btn btn-light w-100 p-3" value=".">.</button></div>
-                <div class="col-3"><button class="btn btn-outline-danger w-100 p-3" value="all-clear">C</button></div>
-                <div class="col-3"><button class="btn btn-outline-success w-100 p-3" value="=">=</button></div>
+                <div class="col-3"><button onclick="atualizaDisplay('0')" class="btn btn-light w-100 p-3" value="0">0</button></div>
+                <div class="col-3"><button onclick="adicionarVirgula()" class="btn btn-light w-100 p-3" value=".">.</button></div>
+                <div class="col-3"><button onclick="calcular()" class="btn btn-outline-success w-100 p-3" value="=">=</button></div>
+                <div class="col-3"><button onclick="definirOperador('+')" class="btn btn-primary w-100 p-3" value="+">+</button></div>
             </div>
         </div>
     </div>
