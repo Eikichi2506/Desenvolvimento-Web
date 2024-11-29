@@ -27,7 +27,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 body{
-    background-image: url(fundo.webp);
+    background-image: url(image/fundo.webp);
     background-size: cover;
     background-position: center;
     font-family: 'Arial', sans-serif;

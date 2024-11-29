@@ -1,0 +1,198 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #006064;
+    color: white;
+    padding: 10px 20px;
+}
+
+header h1.logo {
+    margin: 0;
+    font-size: 30px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.beneficios ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.beneficios li {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button-contato:hover{
+    background-color: #035d52;
+    transition: background 1s;
+}
+
+form button {
+    margin-left: 830px; 
+    width: 150px;
+    height: 50px;
+    background-color: #00796b;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+}
+
+.banner {
+    background-color: #004d40;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.chamada-para-acao {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.chamada-para-acao button {
+    background-color: #00897b;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.chamada-para-acao button:hover {
+    background-color: #004d40;
+}
+
+footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #006064;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.sobre h3{
+    padding: 10px;
+}
+
+ul.valores li{
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.linha-sub {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+button.fale-conosco{
+    margin-top: 20px;
+}
+
+.titulo-solar{
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    filter: drop-shadow(0 0 1rem yellow);
+    font-size: 23px;
+}
+
+.logo-container{
+    text-align: center;
+}
+
+.logo-container img{
+    width: 300px;
+    height: auto;
+}
+
+.home-container,.sobre-container,.contato-container {
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 90px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-container a,.sobre-container a,.contato-container a{
+    color: rgb(229, 222, 222);
+}
+
+.home-container:hover,.sobre-container:hover,.contato-container:hover{
+    transition: background 1s;
+    background-color: rgb(171, 146, 146);
+}
