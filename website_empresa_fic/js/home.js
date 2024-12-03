@@ -17,7 +17,7 @@ const HomePage = {
             <div class="chamada-para-acao">
                 <h3>Entre em contato agora para saber mais!</h3>
                 <p>Não perca tempo! Faça parte da revolução da energia solar.</p>
-                <button type="button" @click="$root.setPage('contato')">Fale Conosco</button>
+                <button type="button" class="fale-conosco" @click="$root.setPage('contato')">Fale Conosco</button>
             </div>
         </section>
     `

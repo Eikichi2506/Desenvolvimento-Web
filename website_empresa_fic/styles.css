@@ -71,6 +71,10 @@ form input, form textarea, form button {
     border-radius: 5px;
 }
 
+.button-contato{
+    margin-left: 560px;
+}
+
 .button-contato:hover{
     background-color: #035d52;
     transition: background 1s;
